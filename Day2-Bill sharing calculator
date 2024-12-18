@@ -1,0 +1,57 @@
+#Tip Calculator
+'''
+strings
+integers
+floats
+Booleans
+
+name=734_529.678
+print(int(name))
+print(str(name))
+#print("hello "+ str(len(input("name?"))))
+print(123+456)  #Addition
+print(7-3)  #Substraction
+print(4*3)  #Mulltiplication
+print(4/2)  #results #Float
+print(4//2) #results INT
+print(3**3) #Exponent
+
+#PEMDAS
+#below is the order of execution
+#(),**,* or /,+ or -
+
+print(3*3+3/3-3)
+print((3*3)+(3/3)-3)
+
+'''
+#'''
+print("Welcome to the tip Calculator")
+billamount=float(input("What is the total bill? $"))
+split_members= int(input("how many people to split the bill?"))
+tip_percent=int(input("what percentage tip would you like to give? 10, 12, or 15?"))
+PercentageAmount=(billamount*(tip_percent/100))
+Total_amount=(billamount+PercentageAmount)/split_members
+print(f"Each person should pay: ${Total_amount}")
+
+#'''
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
