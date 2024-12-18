@@ -1,0 +1,33 @@
+import random
+##Module is something we can creste some code and it can re-used in other file by importing it
+a=1
+b=100
+
+# 0 to 1
+random_int_0_to_1=random.random()
+print(f'I always print between 0 t0 1= {random_int_0_to_1}')
+
+# Heads or tails
+random_int=random.randint(0,1)
+if random_int==1:
+    print("Head")
+else:
+    print("Tails")
+print(f'I always print between 0 0r 1= {random_int}')
+
+#Random int generator
+random_int=random.randint(a,b)
+print(f'I always print between a t0 b numbers= {random_int}')
+
+#Random float generator
+random_float=random.uniform(a,b)
+print(f'I always print between a t0 b numbers in floating value={random_float}')
+
+#Random range by stepping generator
+random_range=random.randrange(a,b,2)
+print(f'I always print between a t0 b range numbers={random_float}')
+
+#Random float generator
+random_float=random.random()
+random_float =random_float*5
+print(random_float)
