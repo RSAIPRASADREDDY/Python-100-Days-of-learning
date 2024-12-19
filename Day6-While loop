@@ -1,0 +1,13 @@
+
+'''
+While loop will run untill condition false
+Syntax:
+while something_is_true:
+    #Do This
+'''
+
+age=29
+while age!=0:
+#while not age != 0:
+    print(age)
+    age -= 1
