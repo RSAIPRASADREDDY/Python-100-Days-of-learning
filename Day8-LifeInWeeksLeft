@@ -1,0 +1,5 @@
+age=input("enter your age:")
+Total_Weeks_in_Life=(90*52)
+current_runnning_weeks=int(age)*52
+Weeks_left=(Total_Weeks_in_Life-current_runnning_weeks)
+print(f"you have {Weeks_left} weeks left")
